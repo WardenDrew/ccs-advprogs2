@@ -19,12 +19,6 @@ public interface IGameClient
 	public void LeaveServer();
 
 	/// <summary>
-	/// Get a list of all players connected to the server
-	/// </summary>
-	/// <returns></returns>
-	public List<IPlayer> GetConnectedPlayers();
-
-	/// <summary>
 	/// Send a chat message to the currently connected server
 	/// </summary>
 	/// <param name="chatMessage">The message to send</param>
@@ -39,10 +33,10 @@ public interface IGameClient
 	public bool SendInputMessage(InputTypes inputType);
 
 	/// <summary>
-	/// Get the latest game state from the server
+	/// Get the latest level state from the server
 	/// </summary>
-	/// <returns>an IGameState object from the server</returns>
-	public IGameState GetGameState();
+	/// <returns>an ILevel object from the server</returns>
+	public ILevel GetCurrentLevel();
 
 	/// <summary>
 	/// Get recent chat messages from the server

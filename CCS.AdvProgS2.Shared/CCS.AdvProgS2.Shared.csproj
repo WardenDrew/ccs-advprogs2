@@ -4,6 +4,11 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+
+        <PackageId>IronWatch.CCS.AdvProgS2.Shared</PackageId>
+        <Version>1.1.0</Version>
+        <Authors>Andrew Haskell</Authors>
+        <Company>IronWatch</Company>
     </PropertyGroup>
 
 </Project>
